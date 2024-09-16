@@ -1,0 +1,39 @@
+---
+import DiscordLogo from "@/assets/DiscordLogo.astro";
+import EmailIcon from "@/assets/EmailIcon.astro";
+import TwitterLogo from "@/assets/TwitterLogo.astro";
+---
+
+<footer>
+    <hr />
+    <div class="flex justify-between px-2 items-center py-6 gap-4">
+        <span class="text-muted-foreground">Wizard</span>
+
+        <div class="flex gap-2 self-start">
+            <a
+                class="hover:bg-accent hover:text-accent-foreground p-2 rounded-lg"
+                href="mailto:arshathvisuals@gmail.com"
+                aria-label="my email address"
+                title="arshathvisuals@gmail.com"
+            >
+                <EmailIcon class="w-4 h-4" />
+            </a>
+            <a
+                class="hover:bg-accent hover:text-accent-foreground p-2 rounded-lg"
+                target="_blank"
+                href="https://x.com/vfxwizard7"
+                aria-label="twitter / X"
+            >
+                <TwitterLogo class="w-4 h-4" />
+            </a>
+            <a
+                class="hover:bg-accent hover:text-accent-foreground p-2 rounded-lg"
+                target="_blank"
+                href="https://discord.com/users/1116701059826589716"
+                aria-label="Connect with me on discord"
+            >
+                <DiscordLogo class="w-4 h-4" />
+            </a>
+        </div>
+    </div>
+</footer>
